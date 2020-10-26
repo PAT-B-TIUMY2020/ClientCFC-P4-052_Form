@@ -16,5 +16,23 @@ namespace ClientCFC_P4_20180140052_Form
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            int hasil;
+            hasil = 1 + 2;
+            label2.Text = hasil.ToString();
+            hasil = 3 - 2;
+            label4.Text = hasil.ToString();
+            hasil = 2 * 2;
+            label6.Text = hasil.ToString();
+            hasil = 2 / 2;
+            label8.Text = hasil.ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
